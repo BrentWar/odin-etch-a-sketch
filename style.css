@@ -1,0 +1,25 @@
+/*body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    min-height: 100vh;
+}*/
+
+.container {
+    display: flex;
+    padding: 5px;
+}
+
+.column {
+    flex-grow: 1;
+}
+
+.square {
+    background: white;
+    min-width: 10px;
+    min-height: 10px;
+    border: solid gray 1px;
+    aspect-ratio: 1 / 1;
+}
