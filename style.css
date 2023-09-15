@@ -1,25 +1,39 @@
-/*body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+body {
     background: black;
     min-height: 100vh;
-}*/
+}
+
+.outerContainer {
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+
+}
+
+.sizeChange {
+
+}
 
 .container {
     display: flex;
-    padding: 5px;
+    flex-grow: 1;
+    margin-left: 20px;
+    max-width: 700px;
+    max-height: 700px;
 }
 
 .column {
-    flex-grow: 1;
+    flex: 1;
 }
 
 .square {
     background: white;
-    min-width: 10px;
-    min-height: 10px;
+    min-width: 5px;
+    min-height: 5px;
     border: solid gray 1px;
     aspect-ratio: 1 / 1;
+}
+
+.changeColor {
+    background: darkgray;
 }
