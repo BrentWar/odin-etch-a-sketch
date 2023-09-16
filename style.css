@@ -10,14 +10,26 @@ body {
 
 }
 
-.sizeChange {
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sizeChange,
+.blackButton,
+.rainbowButton,
+.grayButton {
+    flex: 1;
+    margin: 20px;
 
 }
 
 .container {
     display: flex;
     flex-grow: 1;
-    margin-left: 20px;
+    min-width: 700px;
+    min-height: 700px;
     max-width: 700px;
     max-height: 700px;
 }
@@ -35,5 +47,5 @@ body {
 }
 
 .changeColor {
-    background: darkgray;
+    background: black;
 }
